@@ -9,8 +9,6 @@ RUN npm install
 
 COPY . .
 
-ENV NODE_PORT=8080
-
 EXPOSE $NODE_PORT
 
 CMD [ "node", "index.js" ]

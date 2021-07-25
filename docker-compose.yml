@@ -1,6 +1,7 @@
 services:
   node:
     image: node-docker
+    env_file: nodejsApp.env
     build:
         context: .
         dockerfile: nodejsApp.Dockerfile
